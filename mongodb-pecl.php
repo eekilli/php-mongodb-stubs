@@ -48,13 +48,13 @@ namespace MongoDB\Exception
     class InvalidArgumentException extends \MongoDB\Driver\Exception\InvalidArgumentException implements Exception
     {
         /**
-         * 8      * Thrown when an argument or option has an invalid type.
-         * 9      *
-         * 10      * @param string $name Name of the argument or option
-         * 11      * @param mixed $value Actual value (used to derive the type)
-         * 12      * @param string $expectedType Expected type
-         * 13      * @return self
-         * 14      */
+         * Thrown when an argument or option has an invalid type.
+         *
+         * @param string $name Name of the argument or option
+         * @param mixed $value Actual value (used to derive the type)
+         * @param string $expectedType Expected type
+         * @return self
+         */
         public static function invalidType($name, $value, $expectedType)
         {
         }
